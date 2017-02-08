@@ -1,0 +1,64 @@
+/*==========HERO SECTION===========*/
+
+#about-hero {
+    height: 300px;
+    background-image: url('../img/Briggs-on-12-ft-tramp-dunk-ninja-iowa.jpg');
+    background-position: center;
+    background-size: cover;
+    border-bottom: 4px solid #000;
+    margin-top: 12%;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    line-height: 10px;
+    letter-spacing: 3px;
+    color: #FFDE0A;
+    text-align: center;
+    padding-top: 150px;
+}
+
+/*======COLUMNS SECTION=======*/
+.column {
+    float: left;
+    width: 31%;
+}
+
+.column h3 {
+    text-align: center;
+    font-weight: 600;
+    padding: 8px;
+}
+
+#col-1 button {
+    background-color: #be9640;
+    padding: 8px;
+}
+
+#col-2 button {
+    background-color: #be9640;
+    padding: 8px;
+}
+
+#col-3 button {
+    background-color: #be9640;
+    padding: 8px;
+}
+
+.button {
+    text-align: center;
+}
+
+.origins {
+    text-align: justify;
+    margin: 8px;
+}
+
+.strategies {
+    text-align: justify;
+    margin: 8px;
+}
+
+.rules {
+    text-align: justify;
+    margin: 8px;
+}

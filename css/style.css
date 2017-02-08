@@ -1,0 +1,203 @@
+/*===========UNIVERSALS===========*/
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700|Inconsolata|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Merriweather');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.yellow-background{
+    background-color: #FFDE0A;
+    margin: 0;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.half {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+/*==============HEADER===============*/
+header {
+    padding: 25px 20px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: list-item;
+    margin: 0 15px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+}
+
+header>ul>li {
+    border-radius: 15px 50px 15px 50px;
+    background-color: #FFF;
+    padding: 20px;
+}
+
+
+/*============HERO SECTION=========*/
+
+#hero {
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/Briggs-on-12-ft-tramp-dunk-ninja-iowa.jpg');
+    background-size: cover;
+    border-bottom: 4px solid #000;
+    margin-top: 12%;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    line-height: 10px;
+    letter-spacing: 3px;
+    color: #FFDE0A;
+    text-align: center;
+    padding-top: 150px;
+}
+
+audio {
+    text-align: center;
+}
+
+
+/*=============ASIDE SECTION==========*/
+aside {
+    width: 29.7%;
+    border-right: 2px solid #000;
+    background-color: #FFDE0A ;
+}
+
+aside h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#blog-links {
+    padding-left: 0;
+}
+
+.blog-link {
+    padding: 2px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-link>h5>a {
+    font-size: 15px;
+}
+
+.blog-link:hover {
+    background-color: #DCF9E8;
+}
+
+aside, main {
+    height: 400px;
+}
+
+
+
+/*=============MAIN SECTION==========*/
+
+main {
+    width: 68.45%;
+    background-color: red;
+    padding: 0 8px;
+}
+
+p, p2 {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+}
+
+#rbl-pic {
+    margin: 40px;
+}
+
+h2 {text-align: center;
+    font-size: 200%;
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+h4 {text-align: center;
+    font-size: 200%;
+    font-family: 'Merriweather', serif;
+}
+
+main p a {
+    color: #DCF9E8;
+    font-size: 23px;
+}
+
+main p2 a {
+    color: #DCF9E8;
+    font-size: 23px;
+}
+     
+/*============FOOTER SECTION========*/
+footer {
+    height: 150px;
+    background-color: purple;
+    position: static;
+    clear: both;
+    border-top: 4px solid #000;
+    
+}
+
+#social-media-wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a i {
+    color: #FFF;
+    padding: 40px;
+    
+}
+
+.copyright {
+    color: #FFF;
+    text-align: center;
+}
